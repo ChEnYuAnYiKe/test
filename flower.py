@@ -10,3 +10,4 @@ boston = load_boston()
 x = boston['data']  # 影响房价的特征信息数据
 y = boston['target']  # 房价
 name = boston['feature_names']
+#that is great
