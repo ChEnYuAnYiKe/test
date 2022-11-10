@@ -13,7 +13,7 @@ x = boston['data']  # 影响房价的特征信息数据
 y = boston['target']  # 房价
 name = boston['feature_names']
 
-# 将数据进行拆分，一份用于训练，一份用于测试和验证
+# 将数据进行拆分，一份用于训练，一份用于测试和验证,add
 x_train, x_test, y_train, y_test = train_test_split(x, y, random_state=1)
 
 # 线性回归模型
